@@ -124,3 +124,30 @@ header {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Insta Section */
+
+.insta-section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.insta-flower {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Latest Deal Section */
+
+.latest-deal-section {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url(Images/Rectangle.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
