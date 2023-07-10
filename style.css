@@ -60,7 +60,7 @@ header {
 }
 
 .bonus-flower-section {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -86,4 +86,19 @@ header {
     background-color: #ecf7e3;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
+}
+
+/* Extra Section */
+
+.extra-section {
+    margin-top: 80px;
+}
+
+.extra-btn {
+    background-color: #E55473;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
 }
