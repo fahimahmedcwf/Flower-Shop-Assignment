@@ -159,6 +159,7 @@ header {
 
 .input-field {
     border: none;
+    border-radius: 10px;
     width: 600px;
     height: 50px;
 }
@@ -170,4 +171,17 @@ header {
     border: none;
     border-radius: 8px;
     font-weight: bold;
+}
+
+/* Footer  */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    margin-top: 50px;
+    background-color: #0f0b0b;
+    height: 250px;
 }
