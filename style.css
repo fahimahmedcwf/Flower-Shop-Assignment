@@ -3,7 +3,44 @@
     padding: 0;
 }
 
-.main-section {
-    margin-left: 100px;
-    margin-right: 100px;
+/* 1st Section */
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f0dade;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.heading-text {
+    font-size: 52px;
+}
+
+.shop-button {
+    background-color: #E55473;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.pngwing-image {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* 2nd Section */
+
+.t-align {
+    text-align: center;
+}
+
+.head-text {
+    font-size: 40px;
 }
