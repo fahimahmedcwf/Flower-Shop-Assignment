@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.main-section {
+    margin: auto;
+    max-width: 1400px;
+}
+
 /* 1st Section */
 
 header {
@@ -40,7 +45,6 @@ header {
     height: 100vh;
 }
 
-
 /* 2nd Section */
 
 .t-align {
@@ -49,4 +53,37 @@ header {
 
 .head-text {
     font-size: 40px;
+}
+
+#second-heading {
+    margin-top: 30px;
+}
+
+.bonus-flower-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-size {
+    width: 300px;
+    height: 400px;
+}
+
+.flower-img-1 {
+    background-color: #e7b4bf;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.flower-img-2 {
+    background-color: #d2ecea;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.flower-img-3 {
+    background-color: #ecf7e3;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
 }
