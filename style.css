@@ -142,6 +142,11 @@ header {
 /* Latest Deal Section */
 
 .latest-deal-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
@@ -150,4 +155,19 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.input-field {
+    border: none;
+    width: 600px;
+    height: 50px;
+}
+
+.sub-btn {
+    background-color: #E55473;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
 }
