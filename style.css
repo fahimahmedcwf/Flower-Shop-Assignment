@@ -9,11 +9,17 @@ header {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #f0dade;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 100px;
+    display: flex;
     /* justify-content: center; */
     align-items: center;
+}
+
+.header-first-part {
+    width: 50%;
+}
+
+.header-second-part {
+    width: 50%;
 }
 
 .heading-text {
